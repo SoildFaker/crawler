@@ -90,4 +90,5 @@ def main():
         n=n+1
         sys.stdout.flush()
     return
-main()
+if __name__=="__main__":
+    main()
