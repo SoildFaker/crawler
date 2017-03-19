@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+﻿# -*- coding: UTF-8 -*-
 #!/usr/bin/env python
 from time import ctime, sleep
 import sys
@@ -24,7 +24,7 @@ class tieba:
 
     def __init__(self, n):
         self.name = n
-        for j in range(1):
+        for j in range(5):
             threads.append("td"+str(j))
             threads[j] = threading.Thread(target=td_match, args=())
             #threads[j].setDaemon()
